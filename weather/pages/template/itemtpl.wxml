@@ -1,0 +1,9 @@
+<template name="future-item">
+    <view class ="future-item">
+        <view>{{item.date}}</view>
+        <view>{{item.cond.txt_d}}</view>
+        <view>{{item.wind.dir}}</view>
+        <view>低温 {{item.tmp.min}}</view>
+        <view>高温 {{item.tmp.max}}</view>
+    </view>
+</template>
